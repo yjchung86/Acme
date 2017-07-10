@@ -310,6 +310,10 @@
     <Compile Include="Persistence\Migrations\201707102142217_PopulateProducts.Designer.cs">
       <DependentUpon>201707102142217_PopulateProducts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Persistence\Migrations\201707102149339_PopulateTags.cs" />
+    <Compile Include="Persistence\Migrations\201707102149339_PopulateTags.Designer.cs">
+      <DependentUpon>201707102149339_PopulateTags.cs</DependentUpon>
+    </Compile>
     <Compile Include="Persistence\Migrations\Configuration.cs" />
     <Compile Include="Persistence\Repositories\ProductRepository.cs" />
     <Compile Include="Persistence\UnitOfWork.cs" />
@@ -390,6 +394,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Persistence\Migrations\201707102142217_PopulateProducts.resx">
       <DependentUpon>201707102142217_PopulateProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persistence\Migrations\201707102149339_PopulateTags.resx">
+      <DependentUpon>201707102149339_PopulateTags.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
